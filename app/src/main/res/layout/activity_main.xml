@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".saludo.FirstActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="64dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Ingresa tu nombre"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etNombre"
+        android:inputType="text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:maxLines="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--  Declaración de un botón en XML de Android X -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPresioname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Avanzar"
+        app:layout_constraintTop_toBottomOf="@id/etNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <!--
+    <View
+        android:id="@+id/viewVerde"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@color/teal_200"
+        app:layout_constraintStart_toEndOf="@+id/viewAzul"
+        app:layout_constraintBottom_toTopOf="@+id/viewAzul"/>
+
+    <View
+        android:id="@+id/viewAzul"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+        -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

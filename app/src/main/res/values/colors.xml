@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="darkgrey">#1E1E1E</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--  IMC APP COLORS  -->
+    <color name="imc_bg">#15161b</color>
+    <color name="imc_comp">#22222c</color>
+    <color name="imc_btn">#1d6adc</color>
+    <color name="imc_txt_color">#C8C8C8</color>
+
+    <color name="imc_yellow">#FFE600</color>
+    <color name="imc_orange">#E37500</color>
+    <color name="imc_red">#F01428</color>
+    <color name="imc_green">#1FB80E</color>
+
+    <!--  TO-DO APP COLORS  -->
+    <color name="todo_orange">#ff9859</color>
+    <color name="todo_background">#18181E</color>
+    <color name="todo_component">#282832</color>
+    <color name="todo_yellow">#ffcd86</color>
+    <color name="todo_disable_component">#777777</color>
+    <color name="todo_disable_component_elements">#AAAAAA</color>
+    <color name="superheroe_semi_transparente">#66000000</color>
+
+    <!--  Super Heroes Colors  -->
+    <color name="superheroe_inteligencia">#1d6adc</color>
+    <color name="superheroe_fuerza">#F01428</color>
+    <color name="superheroe_velocidad">#FFCA28</color>
+    <color name="superheroe_durabilidad">#C8C8C8</color>
+    <color name="superheroe_poder">#AB47BC</color>
+    <color name="superheroe_combate">#1FB80E</color>
+    <color name="superheroe_subtitle">#C8C8C8</color>
+
+    <!-- Settings App -->
+    <color name="settings_default">#555555</color>
+    <color name="settings_description">#646464</color>
+
+    <!-- RecyclerView App -->
+    <color name="recyclerapp_bg">#f3f3f8</color>
+    <color name="recyclerapp_title">#333369</color>
+    <color name="recyclerapp_text">#273240</color>
+    <color name="recyclerapp_blue">#525298</color>
+    <color name="recyclerapp_searchBar">@color/recyclerapp_title</color>
+    <color name="recyclerapp_field">#99DCDCDC</color>
+    <color name="recyclerapp_bg_selected">#331F6CD6</color>
+
+</resources>

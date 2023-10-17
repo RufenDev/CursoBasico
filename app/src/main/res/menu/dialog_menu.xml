@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnDialogBack"
+        android:icon="@drawable/ic_back"
+        android:title="@string/dialog_back" />
+
+    <item
+        android:id="@+id/btnDialogDelete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/delete_character" />
+
+    <item
+        android:id="@+id/btnDialogEdit"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/edit_character" />
+
+    <item
+        android:id="@+id/btnDialogInfo"
+        android:icon="@drawable/ic_info"
+        android:title="@string/info_character" />
+
+</menu>

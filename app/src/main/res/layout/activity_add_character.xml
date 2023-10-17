@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/recyclerapp_bg"
+    android:orientation="vertical"
+    tools:context=".recyclerviewapp.AddCharacterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAddCharacter"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/recyclerapp_blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAddCharacterTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:textColor="@color/recyclerapp_title"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="@string/add_character_title" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginVertical="32dp"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="32dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/AnimeApp_Title"
+                    android:text="@string/character_name" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etAddName"
+                    android:maxLength="50"
+                    style="@style/AnimeApp_EditText"
+                    android:hint="@string/character_name_hint"
+                    tools:text="Texto de prueba" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/AnimeApp_Title"
+                    android:text="@string/character_anime" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etAddAnime"
+                    android:maxLength="50"
+                    style="@style/AnimeApp_EditText"
+                    android:hint="@string/character_anime_hint" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/AnimeApp_Title"
+                    android:text="@string/character_mangaka" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etAddMangaka"
+                    style="@style/AnimeApp_EditText"
+                    android:maxLength="50"
+                    android:hint="@string/character_mangaka_hint" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/AnimeApp_Title"
+                    android:text="@string/character_photo" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etAddPhoto"
+                    style="@style/AnimeApp_EditText"
+                    android:hint="@string/character_photo_hint" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSaveCharacter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:paddingVertical="16dp"
+                android:text="@string/save_character"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

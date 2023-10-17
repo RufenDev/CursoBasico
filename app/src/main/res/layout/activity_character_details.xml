@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/recyclerapp_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Detalles del personaje"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/recyclerapp_blue" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:paddingBottom="64dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgCharacterPhotoDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="300dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/gon" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/AnimeApp_Label"
+                android:layout_marginHorizontal="32dp"
+                android:text="@string/character_name"
+                android:textSize="28sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvCharacterName"
+                style="@style/AnimeApp_Title"
+                android:layout_marginBottom="32dp"
+                tools:text="Moneky D. Luffy"
+                android:textSize="38sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/AnimeApp_Label"
+                android:layout_marginHorizontal="32dp"
+                android:text="@string/character_anime"
+                android:textSize="28sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/AnimeApp_Title"
+                android:id="@+id/tvCharacterAnime"
+                android:layout_marginBottom="32dp"
+                tools:text="Hunter X Hunter"
+                android:textSize="38sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/AnimeApp_Label"
+                android:layout_marginHorizontal="32dp"
+                android:text="@string/character_mangaka"
+                android:textSize="28sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/AnimeApp_Title"
+                android:id="@+id/tvCharacterMangaka"
+                android:layout_marginBottom="32dp"
+                tools:text="Togashi"
+                android:textSize="38sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

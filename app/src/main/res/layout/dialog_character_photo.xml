@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgCharacterPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            tools:src="@drawable/gon" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCharacterPhotoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/superheroe_semi_transparente"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:text="Monkey D. Luffy" />
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomCharacterMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/recyclerapp_blue"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/dialog_menu"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

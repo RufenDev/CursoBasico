@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">CursoBasico</string>
+
+    <!-- IMC Strings -->
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="age">Edad</string>
+    <string name="weight">Peso</string>
+    <string name="init_height">120 cm</string>
+    <string name="sumar_edad">Sumar edad</string>
+    <string name="restar_edad">Restar edad</string>
+    <string name="restar_peso">Restar Peso</string>
+    <string name="sumar_peso">Sumar Peso</string>
+    <string name="kilos">kg</string>
+    <string name="calculate">Calcular</string>
+    <string name="imc_result">Tu resultado</string>
+    <string name="imc_error">ERROR</string>
+    <string name="imc_title_low">Peso Bajo</string>
+    <string name="imc_info_low">Estás por debajo del peso recomendable para tu estatura.</string>
+    <string name="imc_title_normal">Peso normal</string>
+    <string name="imc_info_normal">Estás dentro de un rango de peso saludable para tu estatura.</string>
+    <string name="imc_title_high">Peso Alto</string>
+    <string name="imc_info_high">Estás por encima del peso recomendable para tu estatura.</string>
+    <string name="imc_title_over">Obesidad</string>
+    <string name="imc_info_over">Tienes obesidad muy por encima de lo recomendado para tu salud.</string>
+    <string name="recalculate">Recalcular</string>
+    <string name="imc_app">IMC App</string>
+
+    <string name="app_saludo">App Saludo</string>
+
+    <!-- TO-DO APP -->
+    <string name="todo_app">TO-DO App</string>
+    <string name="todo_saludo">Bienvenido</string>
+    <string name="todo_categorias">Categorias</string>
+    <string name="todo_tareas">Tareas</string>
+    <string name="todo_dialog_title">Agrega la tarea</string>
+    <string name="todo_dialog_subtitle">Categoria</string>
+    <string name="todo_dialog_name">Nombre de la tarea</string>
+    <string name="todo_negocio">Negocio</string>
+    <string name="todo_personal">Personal</string>
+    <string name="todo_otros">Otros</string>
+    <string name="todo_save">Guardar</string>
+    <string name="super_heroes">Super Heroes</string>
+    <string name="superheroe_gender_title">Genero</string>
+    <string name="superheroe_race_title">Raza</string>
+    <string name="superheroe_height_title">Altura</string>
+    <string name="superheroe_weight_title">Peso</string>
+    <string name="settings">Settings</string>
+    <string name="darkmode_title">Modo oscuro</string>
+    <string name="darkmode_desc">Activar el modo oscuro para un cambio visual</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_desc">Activa el bluetooth para conectar con otros dispositivos</string>
+    <string name="volumen_title">Volumen</string>
+    <string name="vibration_title">Vibrar en las llamadas</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure</string>
+
+    <string name="anime_title">Anime App</string>
+    <string name="anime_subtitle">Personajes de anime</string>
+    <string name="delete_character">Eliminar</string>
+    <string name="edit_character">Editar</string>
+    <string name="add_character_fab">Agregar un personaje</string>
+    <string name="dialog_back">Ir Atrás</string>
+    <string name="confirm_delete_one">¿Desea eliminar el personaje?</string>
+    <string name="confirm_delete_many">¿Desea eliminar los %s personajes?</string>
+    <string name="unknown_character_msg">ERROR: No se encontró el personaje seleccionado.</string>
+    <string name="acept">Aceptar</string>
+    <string name="close">Cerrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="info_character">Información</string>
+
+
+    <string name="character_name">Nombre</string>
+    <string name="character_name_hint">Nombre del personaje</string>
+    <string name="character_anime">Anime</string>
+    <string name="character_anime_hint">Nombre del anime</string>
+    <string name="character_mangaka">Autor</string>
+    <string name="character_mangaka_hint">Nombre del autor</string>
+    <string name="character_photo">Imagen (URL)</string>
+    <string name="character_photo_hint">Imagen del personaje (URL)</string>
+    <string name="save_character">Guardar personaje</string>
+
+    <string name="error_multi_selected">Debe seleccionar 1 solo personaje</string>
+    <string name="error_unselected">Debe seleccionar un personaje</string>
+    <string name="error_invalid_name">El nombre es inválido</string>
+    <string name="error_invalid_anime">El anime es inválido</string>
+    <string name="error_invalid_mangaka">El autor es inválido</string>
+    <string name="error_invalid_photo">La imagen no puede estár vacía</string>
+
+    <string name="add_character_title">Agrega un personaje</string>
+    <string name="edit_character_title">Edita el personaje</string>
+    <string name="add_character_subtitle">Nuevo personaje</string>
+    <string name="edit_character_subtitle">Editar personaje</string>
+    <string name="confirm_save_character">¿Desea guardar el personaje?</string>
+    <string name="confirm_edit_character">¿Desea aplicar los cambios?</string>
+    <string name="confirm_back_character">¿Desea volver? Se descartarán los cambios</string>
+
+    <string name="character_removed">Se ha eliminado el personaje</string>
+    <string name="characters_removed">Se han removido los personajes</string>
+    <string name="character_edited">Se han actualizado el persoanje</string>
+    <string name="character_added">Se han agregado el persoanje</string>
+    <string name="search_hint">Buscar personaje</string>
+    <string name="movie_home_title">Inicio</string>
+
+</resources>

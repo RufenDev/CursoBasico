@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MenuActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaludo"
+        style="@style/menu_buttons"
+        android:backgroundTint="@color/imc_green"
+        android:text="@string/app_saludo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIMCApp"
+        style="@style/menu_buttons"
+        android:backgroundTint="@color/imc_btn"
+        android:text="@string/imc_app" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTODO"
+        style="@style/menu_buttons"
+        android:backgroundTint="@color/todo_orange"
+        android:text="@string/todo_app" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSuperHeroes"
+        style="@style/menu_buttons"
+        android:backgroundTint="@color/imc_red"
+        android:text="@string/super_heroes" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSettings"
+        style="@style/menu_buttons"
+        android:backgroundTint="@color/superheroe_poder"
+        android:text="@string/settings" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRecyclerView"
+        style="@style/menu_buttons"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/anime_title" />
+
+</LinearLayout>

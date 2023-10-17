@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings App -->
+    <color name="settings_default">#DCDCDC</color>
+    <color name="settings_description">#B4B4B4</color>
+
+    <!-- RecyclerView App -->
+    <color name="recyclerapp_bg">#1f1d2b</color>
+    <color name="recyclerapp_title">#ffffff</color>
+    <color name="recyclerapp_searchBar">#262835</color>
+    <color name="recyclerapp_text">#f7f7f7</color>
+    <color name="recyclerapp_field">#66646464</color>
+    <color name="recyclerapp_blue">#2f3142</color>
+
+</resources>

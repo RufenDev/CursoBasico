@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/todo_background"
+        android:orientation="vertical"
+        tools:context=".todo.TodoActivity">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="32dp"
+            android:text="@string/todo_saludo"
+            android:textAllCaps="true"
+            android:textColor="@color/todo_orange"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/todo_subtitulo"
+            android:text="@string/todo_categorias" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvCategorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/todo_subtitulo"
+            android:layout_marginVertical="32dp"
+            android:text="@string/todo_tareas" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvTareas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAgregarTarea"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="32dp"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/todo_orange"
+        app:fabSize="auto"
+        app:tint="@color/white" />
+
+</FrameLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".superheroes.SuperHeroesDetailsActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivSuperHeroe"
+        android:layout_width="0dp"
+        android:layout_height="256dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="224dp"
+        app:cardBackgroundColor="@color/imc_comp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSuperHeroeNameDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:text="Negasonic Teenage Warhead" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSuperHeroeRealName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                tools:text="Ellie Phimister" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSuperHeroePublisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/superheroe_subtitle"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                tools:text="Marvel Comics" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="end"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/superheroe_status_title"
+                        android:text="Inteligencia" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/superheroe_status_title"
+                        android:text="Fuerza" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/superheroe_status_title"
+                        android:text="Velocidad" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/superheroe_status_title"
+                        android:text="Durabilidad" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/superheroe_status_title"
+                        android:text="Poder" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/superheroe_status_title"
+                        android:text="Combate" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginVertical="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvInteligencia"
+                            style="@style/superheroe_status_bar"
+                            android:background="@color/superheroe_inteligencia" />
+
+                        <View
+                            android:id="@+id/viewInteligenciaMargin"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginVertical="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvFuerza"
+                            style="@style/superheroe_status_bar"
+                            android:background="@color/superheroe_fuerza" />
+
+                        <View
+                            android:id="@+id/viewFuerzaMargin"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginVertical="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvVelocidad"
+                            style="@style/superheroe_status_bar"
+                            android:background="@color/superheroe_velocidad" />
+
+                        <View
+                            android:id="@+id/viewVelocidadMargin"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginVertical="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvDurabilidad"
+                            style="@style/superheroe_status_bar"
+                            android:background="@color/superheroe_durabilidad" />
+
+                        <View
+                            android:id="@+id/viewDurabilidadMargin"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginVertical="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvPoder"
+                            style="@style/superheroe_status_bar"
+                            android:background="@color/superheroe_poder" />
+
+                        <View
+                            android:id="@+id/viewPoderMargin"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginVertical="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvCombate"
+                            style="@style/superheroe_status_bar"
+                            android:background="@color/superheroe_combate" />
+
+                        <View
+                            android:id="@+id/viewCombateMargin"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:columnCount="2"
+                android:rowCount="4">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/superheroe_details_title"
+                    android:text="@string/superheroe_gender_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/superheroe_details_title"
+                    android:text="@string/superheroe_race_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSuperHeroeGender"
+                    style="@style/superheroe_details"
+                    tools:text="Female" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSuperHeroeRace"
+                    style="@style/superheroe_details"
+                    tools:text="Inhuman" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/superheroe_details_title"
+                    android:text="@string/superheroe_height_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/superheroe_details_title"
+                    android:text="@string/superheroe_weight_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSuperHeroeHeight"
+                    style="@style/superheroe_details"
+                    tools:text="169 cm" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSuperHeroeWeight"
+                    style="@style/superheroe_details"
+                    tools:text="64 kg" />
+
+            </GridLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
