@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.appcompat.widget.AppCompatImageView
@@ -14,6 +15,8 @@ import androidx.core.widget.addTextChangedListener
 import com.example.cursobasico.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.slider.RangeSlider
+import java.math.BigDecimal
+import java.math.RoundingMode
 import java.text.DecimalFormat
 import kotlin.math.pow
 
@@ -27,7 +30,9 @@ class IMCAppActivity : AppCompatActivity() {
 
     private fun calcularIMC():Double {
         val imc = pesoActual / (alturaActual.toDouble() / 100).pow(2)
-        return df.format(imc).toDouble()
+        return BigDecimal(imc)
+            .setScale(2, RoundingMode.HALF_EVEN)
+            .toDouble()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -118,7 +123,7 @@ class IMCAppActivity : AppCompatActivity() {
     //METODOS
     @SuppressLint("SetTextI18n")
     private fun setAltura(value: Float) {
-        alturaActual = df.format(value).toInt()
+        alturaActual = value.toInt()
         tvAltura.text = "$alturaActual cm"
     }
 
@@ -187,7 +192,6 @@ class IMCAppActivity : AppCompatActivity() {
     private var pesoActual: Int = 50
     private var edadActual: Int = 20
     private var alturaActual: Int = 120
-    private val df = DecimalFormat("#.##")
 
     //COMPONENTES
     private lateinit var cardHombre: CardView
