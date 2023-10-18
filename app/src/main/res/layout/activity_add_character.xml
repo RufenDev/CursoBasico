@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/recyclerapp_bg"
     android:orientation="vertical"
-    tools:context=".recyclerviewapp.AddCharacterActivity">
+    tools:context=".animeapp.AddCharacterActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarAddCharacter"

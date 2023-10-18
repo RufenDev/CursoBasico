@@ -1,4 +1,4 @@
-package com.example.cursobasico.recyclerviewapp.adapter
+package com.example.cursobasico.animeapp.adapter
 
 import android.annotation.SuppressLint
 import android.graphics.Bitmap
@@ -6,8 +6,8 @@ import android.graphics.drawable.BitmapDrawable
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cursobasico.databinding.ItemCharacterGridDisplayBinding
-import com.example.cursobasico.recyclerviewapp.AnimeActivity
-import com.example.cursobasico.recyclerviewapp.AnimeCharacter
+import com.example.cursobasico.animeapp.AnimeActivity
+import com.example.cursobasico.animeapp.AnimeCharacter
 import com.squareup.picasso.Picasso
 
 class AnimeGridViewHolder(view: View) : RecyclerView.ViewHolder(view) {

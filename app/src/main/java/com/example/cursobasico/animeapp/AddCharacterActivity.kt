@@ -1,4 +1,4 @@
-package com.example.cursobasico.recyclerviewapp
+package com.example.cursobasico.animeapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +9,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.cursobasico.R
 import com.example.cursobasico.databinding.ActivityAddCharacterBinding
-import java.util.*
 
 class AddCharacterActivity : AppCompatActivity() {
 

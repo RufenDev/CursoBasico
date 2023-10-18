@@ -1,4 +1,4 @@
-package com.example.cursobasico.recyclerviewapp
+package com.example.cursobasico.animeapp
 
 import android.app.ActionBar.LayoutParams
 import android.app.Activity
@@ -24,9 +24,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cursobasico.R
 import com.example.cursobasico.databinding.ActivityAnimeBinding
-import com.example.cursobasico.recyclerviewapp.adapter.AnimeAdapter
-import com.example.cursobasico.recyclerviewapp.adapter.AnimeGridViewHolder
-import com.example.cursobasico.recyclerviewapp.adapter.AnimeLinearViewHolder
+import com.example.cursobasico.animeapp.adapter.AnimeAdapter
+import com.example.cursobasico.animeapp.adapter.AnimeGridViewHolder
+import com.example.cursobasico.animeapp.adapter.AnimeLinearViewHolder
 import com.google.android.material.appbar.CollapsingToolbarLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -62,13 +62,13 @@ class AnimeActivity : AppCompatActivity() {
                 if (unknownCharacter) unknownDialog()
             }
 
-            if (closeDialog) {
+            if (closeDialog && ::photoDialog.isInitialized) {
                 closeDialog = false
                 photoDialog.hide()
             }
 
             emptyActivity()
-            adapter.notifyDataSetChanged()
+             adapter.notifyDataSetChanged()
         }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -231,15 +231,16 @@ class AnimeActivity : AppCompatActivity() {
 
             builder.setPositiveButton(getString(R.string.acept)) { _, _ ->
                 deleteCharacter(listOf(position))
+                isDialogOpen = false
+                closeDialog = true
+                photoDialog.hide()
             }
             builder.setNegativeButton(getString(R.string.cancel)) { dialog, _ ->
-                Toast.makeText(this, "Cancelar", Toast.LENGTH_SHORT).show()
                 dialog.dismiss()
             }
 
             val dialog = builder.create()
             dialog.show()
-
 
         } else {
             val indexList: List<Int> = CharacterList.list
@@ -328,8 +329,6 @@ class AnimeActivity : AppCompatActivity() {
                     }
                     R.id.btnDialogDelete -> {
                         confirmDelete(position)
-                        closeDialog = true
-                        isDialogOpen = false
                         true
                     }
                     R.id.btnDialogInfo -> {

@@ -1,4 +1,4 @@
-package com.example.cursobasico.recyclerviewapp
+package com.example.cursobasico.animeapp
 
 class CharacterList {
     companion object {

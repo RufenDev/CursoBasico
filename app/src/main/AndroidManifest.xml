@@ -16,25 +16,25 @@
         tools:targetApi="31">
 
         <activity
-            android:name="com.example.cursobasico.recyclerviewapp.CharacterDetailsActivity"
+            android:name="com.example.cursobasico.animeapp.CharacterDetailsActivity"
             android:exported="false"
-            android:parentActivityName=".recyclerviewapp.AnimeActivity"
+            android:parentActivityName=".animeapp.AnimeActivity"
             android:theme="@style/Theme.CursoBasico.AnimeApp">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".recyclerviewapp.AddCharacterActivity"
+            android:name=".animeapp.AddCharacterActivity"
             android:exported="false"
-            android:parentActivityName=".recyclerviewapp.AnimeActivity"
+            android:parentActivityName=".animeapp.AnimeActivity"
             android:theme="@style/Theme.CursoBasico.AnimeApp">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".recyclerviewapp.AnimeActivity"
+            android:name=".animeapp.AnimeActivity"
             android:exported="false"
             android:parentActivityName=".MenuActivity"
             android:theme="@style/Theme.CursoBasico.AnimeApp">

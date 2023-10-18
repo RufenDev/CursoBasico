@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
 import com.example.cursobasico.imc.IMCAppActivity
-import com.example.cursobasico.recyclerviewapp.AnimeActivity
+import com.example.cursobasico.animeapp.AnimeActivity
 import com.example.cursobasico.saludo.FirstActivity
 import com.example.cursobasico.settings.SettingsActivity
 import com.example.cursobasico.superheroes.SuperHeroesListActivity

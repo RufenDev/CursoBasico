@@ -1,12 +1,12 @@
-package com.example.cursobasico.recyclerviewapp
+package com.example.cursobasico.animeapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import com.example.cursobasico.databinding.ActivityCharacterDetailsBinding
-import com.example.cursobasico.recyclerviewapp.AnimeActivity.Companion.SEND_CHARACTER
-import com.example.cursobasico.recyclerviewapp.AnimeActivity.Companion.UNKNOWN_CHARACTER
+import com.example.cursobasico.animeapp.AnimeActivity.Companion.SEND_CHARACTER
+import com.example.cursobasico.animeapp.AnimeActivity.Companion.UNKNOWN_CHARACTER
 import com.squareup.picasso.Picasso
 
 class CharacterDetailsActivity : AppCompatActivity() {

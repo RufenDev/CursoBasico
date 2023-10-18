@@ -1,4 +1,4 @@
-package com.example.cursobasico.recyclerviewapp.adapter
+package com.example.cursobasico.animeapp.adapter
 
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
@@ -7,8 +7,8 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cursobasico.R
 import com.example.cursobasico.databinding.ItemCharacterLinearDisplayBinding
-import com.example.cursobasico.recyclerviewapp.AnimeActivity
-import com.example.cursobasico.recyclerviewapp.AnimeCharacter
+import com.example.cursobasico.animeapp.AnimeActivity
+import com.example.cursobasico.animeapp.AnimeCharacter
 import com.squareup.picasso.Picasso
 
 class AnimeLinearViewHolder(view: View) : RecyclerView.ViewHolder(view) {

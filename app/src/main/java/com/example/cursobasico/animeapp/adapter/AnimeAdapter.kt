@@ -1,4 +1,4 @@
-package com.example.cursobasico.recyclerviewapp.adapter
+package com.example.cursobasico.animeapp.adapter
 
 import android.graphics.Bitmap
 import android.util.Log
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cursobasico.R
-import com.example.cursobasico.recyclerviewapp.AnimeActivity
-import com.example.cursobasico.recyclerviewapp.AnimeCharacter
+import com.example.cursobasico.animeapp.AnimeActivity
+import com.example.cursobasico.animeapp.AnimeCharacter
 
 class AnimeAdapter(
     private var charactersList: List<AnimeCharacter>,
