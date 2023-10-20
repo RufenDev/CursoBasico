@@ -8,7 +8,7 @@ Esta aplicación cuenta con dos Activity, el activity principal y el activity de
 
 <strong>Video:</strong>
 
-https://github.com/RufenDev/CursoBasico/assets/147002806/1412f7a0-d925-4388-b215-6ed7bf2e0be9
+https://github.com/RufenDev/CursoBasico/assets/147002806/fd000969-efb5-44b4-b810-eac1e1aa5e80
 
 <h2>IMC App - Segunda App</h2>
 
@@ -16,7 +16,7 @@ Aplicación para calcular en índice de masa corporal (IMC), aplicando los conoc
 
 <strong>Video:</strong>
 
-https://github.com/RufenDev/CursoBasico/assets/147002806/c9e14449-73f5-478c-8f88-346dd07df1e5
+https://github.com/RufenDev/CursoBasico/assets/147002806/6ecf6ca3-f006-40a9-9e0e-d24b9b8a20de
 
 <h2>TODO App - Tercera App</h2>
 
@@ -24,7 +24,7 @@ Aplicación para anotar tareas para realizar, dividas por categorías. Esta apli
 
 <strong>Video:</strong>
 
-https://github.com/RufenDev/CursoBasico/assets/147002806/67e31172-8825-4a72-b22e-20214d47b4a4
+https://github.com/RufenDev/CursoBasico/assets/147002806/cf8e19d4-5046-4d89-a38e-ab11c57ef855
 
 <h2>SuperHeroApp - Cuarta App</h2>
 
@@ -32,7 +32,7 @@ Aplicación para buscar la información de cualquier super heroe, consumiendo un
 
 <strong>Video:</strong>
 
-https://github.com/RufenDev/CursoBasico/assets/147002806/0374c139-1c2d-4640-9047-72ee5021dd7a
+https://github.com/RufenDev/CursoBasico/assets/147002806/4571fce2-3ff6-4280-9d68-a06d74e6b4d9
 
 <h2>Settings App - Quinta App</h2>
 
@@ -40,10 +40,14 @@ Aplicación para simular ajustes del teléfono, poniendo en uso DataStore para g
 
 <strong>Video:</strong>
 
-https://github.com/RufenDev/CursoBasico/assets/147002806/1f189440-b668-4c64-8d64-7c2773ba961b
+https://github.com/RufenDev/CursoBasico/assets/147002806/82dc933f-7dfb-4e29-ab90-00d6433fe99c
 
 <h2>Anime App - Sexta App</h2>
 
 Aplicación para simular ajustes del teléfono, poniendo en uso DataStore para guardar los ajustes en las configuraciones, además de un botón para actualizar el título y subtítulo de la toolbar.
 
-<strong>Video:</strong>
+<strong>Videos:</strong>
+
+|                     Entrando en la App                      | Modo selección y <br> cambio de display | Agregando un personaje | Editando un personaje |
+|:-----------------------------------------------------------:| :---------------: | :---------------: | :---------------: |
+| <img src="/gifs/anime_1.gif" align="center" width="208px"/> | <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/f0ffe51f-fba6-4dfa-8c60-65276ccc8bee" align="center" width="208px"/> | <img src="/gifs/anime_3.gif" align="center" width="208px"/> | <img src="/gifs/anime_4.gif" align="center" width="208px"/> |
