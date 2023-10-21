@@ -48,6 +48,8 @@ Aplicación para simular ajustes del teléfono, poniendo en uso DataStore para g
 
 <strong>Videos:</strong>
 
-| Entrando en la App | Modo selección y <br> cambio de display | Agregando un personaje | Editando un personaje |
-|:-----------------------------------------------------------:| :---------------: | :---------------: | :---------------: |
-| <img src="" align="center" width="208px"/> | <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/f0ffe51f-fba6-4dfa-8c60-65276ccc8bee" align="center" width="208px"/> | <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/d1c306ac-ae81-4756-97d2-a7ce6afd36eb" align="center" width="208px"/> | <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/241b81fd-f3b7-460f-a8e4-0fb8ebf14802" align="center" width="208px"/> |
+| Entrando en la App | Modo selección y <br> cambio de display | Agregando un personaje | 
+|:---:| :---: | :---: |
+| <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/ef974ff0-bb57-4e7e-b120-2445c63d2a2b" align="center" width="208px"/> | <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/f0ffe51f-fba6-4dfa-8c60-65276ccc8bee" align="center" width="208px"/> | <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/d1c306ac-ae81-4756-97d2-a7ce6afd36eb" align="center" width="208px"/> |
+| Editando un personaje | Eliminando un personaje |
+| <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/241b81fd-f3b7-460f-a8e4-0fb8ebf14802" align="center" width="208px"/> | <img src="https://github.com/RufenDev/CursoBasico/assets/147002806/888329f4-3cb8-4780-ba1e-bd2268955dd6" align="center" width="208px"/> |
