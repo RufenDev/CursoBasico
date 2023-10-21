@@ -44,7 +44,7 @@ https://github.com/RufenDev/CursoBasico/assets/147002806/82dc933f-7dfb-4e29-ab90
 
 <h2>Anime App - Sexta App</h2>
 
-Aplicación para simular ajustes del teléfono, poniendo en uso DataStore para guardar los ajustes en las configuraciones, además de un botón para actualizar el título y subtítulo de la toolbar.
+Aplicación personal sobre personajes de anime para manejar los RecyclerView, modo de selección de elementos, cambio de display del Recyclerview, Collpsing Toolbar, animaciones cortas y adición, edición y eliminación de elementos en un RecyclerView.
 
 <strong>Videos:</strong>
 
